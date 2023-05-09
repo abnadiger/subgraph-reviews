@@ -15,7 +15,7 @@ async function startApolloServer() {
     schema: buildSubgraphSchema({ typeDefs, resolvers }), 
   });
   
-  const port = process.env.port || 4004;
+  const port = process.env.port || 4003;
   const subgraphName = 'reviews';
 
   try {
